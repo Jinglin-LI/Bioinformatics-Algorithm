@@ -1,0 +1,9 @@
+/home/woodblock/Downloads/lsm2241/  Using cached unittest_xml_reporting-2.1.0-py2.py3-none-any.whl
+Collecting six>=1.4.0 (from unittest-xml-reporting)
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Installing collected packages: six, unittest-xml-reporting
+Successfully installed six-1.10.0 unittest-xml-reporting-2.1.0
+ertificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+/home/woodblock/Downloads/lsm2241/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning

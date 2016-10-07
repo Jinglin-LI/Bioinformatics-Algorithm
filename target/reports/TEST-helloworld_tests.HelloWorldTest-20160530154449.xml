@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="helloworld_tests.HelloWorldTest-20160530154449" skipped="0" tests="1" time="0.000">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.000">
+		<failure message="
+Wanted but not invoked: write('Mello world of Python\n')" type="VerificationError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/woodblock/Downloads/lsm2241/src/unittest/python/helloworld_tests.py", line 12, in test_should_issue_hello_world_message
+    verify(out).write("Mello world of Python\n")
+  File "/home/woodblock/Downloads/lsm2241/venv/local/lib/python2.7/site-packages/mockito/invocation.py", line 138, in __call__
+    verification.verify(self, len(matched_invocations))
+  File "/home/woodblock/Downloads/lsm2241/venv/local/lib/python2.7/site-packages/mockito/verification.py", line 73, in verify
+    % (invocation))
+VerificationError: 
+Wanted but not invoked: write('Mello world of Python\n')
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
